@@ -1,0 +1,73 @@
+- so_that: >-
+    Lina asks for help within five minutes of getting stuck, instead of losing
+    three hours alone, so that she finishes her exercises before the deadline
+  as_a: Second-year business student who works 15 hours a week in a café
+  headline: Post Exercise Request
+  i_want: >-
+    I want to post my statistics exercise with a photo and one line on where I
+    am stuck
+  tech_note: >-
+    comment: Simple content upload, ensure image handling.; advice: Validate
+    text length, store metadata.; risk: Large images may exceed storage limits.
+  value_why: Enables immediate help request, cutting hours of solo struggle.
+  business_value: 80
+  effort: 8
+  effort_why: matches offer with request, core marketplace functionality
+  feature: feature_01
+- so_that: >-
+    Lina meets a buddy who passed her course last term the same evening, instead
+    of waiting a week for office hours, so that she understands the concept she
+    is missing
+  as_a: Second-year business student who works 15 hours a week in a café
+  headline: AI Buddy Suggestion
+  i_want: >-
+    🤖 The AI reads my exercise, finds the concept I am stuck on, and suggests
+    buddies who passed that course and are free tonight
+  tech_note: >-
+    comment: AI parsing requires OCR and NLP accuracy.; advice: Train model on
+    course-specific terminology.; risk: Misinterpretation could match wrong
+    buddies.
+  value_why: Automates matching, delivering same‑evening help, avoiding week‑long wait.
+  business_value: 85
+  effort: 0
+- so_that: >-
+    Lina chooses who helps her and the buddy agrees to the time, so that she
+    feels safe asking and the session actually happens
+  as_a: Second-year business student who works 15 hours a week in a café
+  headline: Select Buddy Session
+  i_want: >-
+    👤 I pick my buddy from the suggestions, and the buddy accepts or declines
+    the session
+  tech_note: >-
+    comment: Selection UI must be responsive.; advice: Implement acceptance
+    timeout to avoid stale offers.; suggestion: Show buddy profile and
+    availability details.
+  value_why: Ensures consent and safety, increasing likelihood of successful sessions.
+  business_value: 70
+  effort: 0
+- so_that: >-
+    Lina solves the next exercise of the same kind on her own, so that she walks
+    into the exam able to pass with a grade to be proud of
+  as_a: Second-year business student who works 15 hours a week in a café
+  headline: Practice Quiz
+  i_want: I want a short practice quiz on the same concept right after the session
+  tech_note: >-
+    comment: Quiz generation needs concept mapping.; advice: Provide immediate
+    feedback for learning reinforcement.; suggestion: Limit quiz to five
+    questions for brevity.
+  value_why: Reinforces concept instantly, boosting confidence for upcoming exams.
+  business_value: 60
+  effort: 0
+- so_that: >-
+    Lina rates her session, so that the next match is better for her and for the
+    next student who gets stuck
+  as_a: Second-year business student who works 15 hours a week in a café
+  headline: Rate Buddy Feedback
+  i_want: I want to rate my buddy and say if the explanation helped
+  tech_note: >-
+    comment: Rating system influences future matching.; advice: Allow optional
+    textual feedback for nuance.; risk: Low ratings may discourage helpers
+    without context.
+  value_why: Collects feedback, improving future matches and overall platform quality.
+  business_value: 55
+  effort: 0
